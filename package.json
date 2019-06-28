@@ -1,0 +1,26 @@
+{
+  "name": "parsethedictionary",
+  "version": "1.0.0",
+  "description": "Parses a .txt file and adds it to a csv",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jneumann22/parsethedictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jneumann22/parsethedictionary/issues"
+  },
+  "homepage": "https://github.com/jneumann22/parsethedictionary#readme",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "csv-writer": "^1.4.0",
+    "line-by-line": "^0.1.6",
+    "readline-promise": "^1.0.4",
+    "request": "^2.88.0"
+  }
+}
